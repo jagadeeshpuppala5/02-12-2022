@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+	<script type="text/javascript">
+		/*using for loop and properties concept of object
+		var obj={name:"JavaScript",age:23,address:"vijayawada"};
+		var i, text="";
+		for (i in obj){
+			text=text+obj[i]+" "
+		}
+
+		document.getElementById("first").innerHTML=text;*/
+		var obj={name:"JavaScript",age:23,address:"vijayawada",dob:1998,mark:"js"};
+		var newVariable=Object.values(obj);
+		console.log(newVariable);
+		document.getElementById("first").innerHTML=newVariable;
+	</script>
+</body>
+</html>
